@@ -1,26 +1,26 @@
 // functions to create SPA
-function onlyDisplayBook() {
+const onlyDisplayBook = () => {
   document.getElementById('display-books').style.display = 'unset';
   document.getElementById('separation-book-form').style.display = 'none';
   document.getElementById('input-book').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
-}
+};
 
 /* eslint-disable no-unused-vars */
-function onlyDisplayInputBook() {
+const onlyDisplayInputBook = () => {
   document.getElementById('input-book').style.display = 'unset';
   document.getElementById('display-books').style.display = 'none';
   document.getElementById('separation-book-form').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
-}
+};
 
 /* eslint-disable no-unused-vars */
-function onlyDisplayContact() {
+const onlyDisplayContact = () => {
   document.getElementById('contact').style.display = 'unset';
   document.getElementById('display-books').style.display = 'none';
   document.getElementById('separation-book-form').style.display = 'none';
   document.getElementById('input-book').style.display = 'none';
-}
+};
 // end of
 
 export { onlyDisplayBook, onlyDisplayInputBook, onlyDisplayContact };
